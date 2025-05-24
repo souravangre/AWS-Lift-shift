@@ -1,31 +1,66 @@
-<h1 align="center">🌿 Fitstore E-Commerce App 🌿</h1>
+<h1 align="center">☁️ Cloud Migration of a Flask App using Lift & Shift (AWS) ☁️</h1>
+
 <p align="center">
-  A modular Flask-based e-commerce app deployed on AWS using EC2, RDS, S3, Docker, and Nginx.
+  <strong>A lightweight e-commerce web app powered by Flask, containerized with Docker, and migrated to AWS using the Lift & Shift strategy.</strong>
 </p>
 
 ---
 
-## 📦 Project Overview
+<h2 align="center">🛠️ Architecture</h2>
 
-Fitstore is a lightweight e-commerce platform that allows users to:
-
-- Sign up and log in securely
-- Browse products
-- Add items to cart
-- Place orders
-- View past purchases
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dcf3b2ab-c152-4e39-a802-b62c67ec3297" alt="Lift and Shift Architecture" width="700"/>
+</p>
 
 ---
 
-## 🚀 Tech Stack
+## 📦 Overview
 
-- 🐍 Backend: Flask, SQLAlchemy
-- 🐬 Database: MySQL (Amazon RDS)
-- 🐳 Deployment: Docker + Gunicorn + Nginx
-- ☁️ Cloud: AWS EC2, RDS, S3, Route 53
-- 📦 Storage: S3 for static/media files
+Lightweight e-commerce web application built using Flask. It features:
+
+- ✅ User authentication
+- 🛒 Product listings
+- 🧺 Cart functionality
+- 📜 Order history
+
+The application was containerized using Docker and deployed on AWS via:
+
+- EC2 (for hosting the Flask app)
+- RDS (for dynamic user and order data)
+- S3 (for storing static files like images)
+
+⚠️ The app is not currently live due to AWS cost constraints. This repository serves as a documentation and showcase of the deployment process.
 
 ---
 
-## 🗂 Project Structure
+## ⚙️ Tech Stack
+
+| Layer       | Technology               |
+|------------|---------------------------|
+| Backend     | Python (Flask)            |
+| Database    | AWS RDS (MySQL)           |
+| Frontend    | HTML, CSS, Jinja2         |
+| Container   | Docker                    |
+| Deployment  | AWS EC2 + S3 + RDS        |
+| ORM         | SQLAlchemy                |
+
+---
+
+## 🚀 How to Run Locally
+
+Pull the image:
+
+```bash
+docker pull souravangre/flask-fitstore
+docker run -p 4000:4000 souravangre/flask-fitstore
+```
+Then, open http://localhost:4000 in your browser.
+
+🏗️ Deployment Architecture
+ -🖥️ Flask app runs inside a Docker container on an AWS EC2 instance
+ -💾 MySQL database is hosted using Amazon RDS
+ -📁 Static files (images, CSS) are stored in Amazon S3
+
+👨‍💻 Author
+<p align="center"> <strong>Sourav</strong><br/> 🌐 Lift & Shift Cloud Migration Practitioner </p> 
 
