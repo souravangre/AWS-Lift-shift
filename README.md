@@ -56,8 +56,8 @@ docker run -p 4000:4000 souravangre/flask-fitstore
 ```
 Then, open http://localhost:4000 in your browser.
 
-<h3 align="right">🏗️ Deployment Architecture</h3> <p align="right"> 🖥️ Flask app runs inside a Docker container on an AWS EC2 instance<br> 💾 MySQL database is hosted using Amazon RDS<br> 📁 Static files (images, CSS) are stored in Amazon S3 </p>
+<h3 align="left">🏗️ Deployment Architecture</h3> <p align="left"> 🖥️ Flask app runs inside a Docker container on an AWS EC2 instance<br> 💾 MySQL database is hosted using Amazon RDS<br> 📁 Static files (images, CSS) are stored in Amazon S3 </p>
 
 
-<p align="center">👨‍💻 Author <strong>Sourav</strong><br/> 🌐 Lift & Shift Cloud Migration Practitioner </p> 
+<p align="center">👨‍💻 Author : <strong>Sourav</strong><br/> 🌐 Lift & Shift Cloud Migration Practitioner </p> 
 
