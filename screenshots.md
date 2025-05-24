@@ -3,28 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <title>Fitstore Screenshots</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0 10px;
-    }
-    h1,
-    h2,
-    h3 {
-      text-align: center;
-    }
-    img {
-      max-width: 90%;
-      height: auto;
-      margin: 10px 0;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    section {
-      margin-bottom: 40px;
-    }
-  </style>
 </head>
 <body>
   <h1>📸 Fitstore Screenshots</h1>
