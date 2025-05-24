@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Fitstore Screenshots</title>
 </head>
 <body>
-  <h1>📸 Fitstore Screenshots</h1>
+  <h1>📸 Screenshots</h1>
 
   <section>
     <h2>🖥️ Homepage</h2>
