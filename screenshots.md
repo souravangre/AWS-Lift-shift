@@ -45,7 +45,7 @@
   </section>
 
   <section>
-    <h2>🐳 EC2 Instances</h2>
+    <h2>🖥️ EC2 Instances</h2>
     <img src="https://github.com/user-attachments/assets/19099d5c-489b-4d1b-8dea-c2c8410786e6" alt="EC2 Instances" />
   </section>
 
@@ -55,7 +55,7 @@
   </section>
 
   <section>
-    <h2>☁️ S3 Buckets</h2>
+    <h2>🪣 S3 Buckets</h2>
     <img src="https://github.com/user-attachments/assets/933ad3f1-35ff-46f5-b651-d165dc213fcd" alt="S3 Buckets" />
   </section>
 
@@ -66,21 +66,9 @@
 
   <section>
     <h2>📂 GitBash Logs</h2>
-
-    <h3>Log&nbsp;1</h3>
     <img src="https://github.com/user-attachments/assets/77439e97-4bcd-44e6-8ff9-785b44d69acd" alt="GitBash Log 1" />
-
-    <h3>Log&nbsp;2</h3>
     <img src="https://github.com/user-attachments/assets/e9a969f3-15a0-45e4-b9cb-52b2160b80a3" alt="GitBash Log 2" />
-
-    <h3>Log&nbsp;3</h3>
     <img src="https://github.com/user-attachments/assets/f727d2ba-0e5f-47c8-b019-ae91934bb1df" alt="GitBash Log 3" />
-
-    <h3>Log&nbsp;4</h3>
     <img src="https://github.com/user-attachments/assets/d619892a-9e91-49f1-831f-04418a63e4d6" alt="GitBash Log 4" />
   </section>
 
-  <hr />
-  <p style="text-align: center; font-style: italic;">📁 This page stores only screenshots. Ensure the hosted links remain active for proper rendering.</p>
-</body>
-</html>
